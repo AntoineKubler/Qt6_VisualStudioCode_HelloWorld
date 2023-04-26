@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Hello world app",
+        "type": "cppvsdbg",
+        "request": "launch",
+        "program": "${workspaceFolder:HelloWorld}/build/helloworld.exe",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder:HelloWorld}/build",
+        "environment": []
+      }
+      // ... add more targets here
+    ]
+  }
